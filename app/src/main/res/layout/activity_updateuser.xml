@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/w"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/update_username"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="修改用户名"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/update_name"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="修改姓名"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/update_password"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="修改密码"
+                android:paddingLeft="10dp"
+                android:password="true" />
+
+            <EditText
+                android:id="@+id/update_pho"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="修改手机号码"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/update_sex"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="修改性别"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/update_ages"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="修改年龄"
+                android:paddingLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/update_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_register_bg"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp"
+                    android:text="立即修改"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

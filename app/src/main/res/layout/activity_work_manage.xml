@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sz">
+
+    <Button
+        android:id="@+id/btn_publicwork"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/btn_kaohework"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_kaohework"
+        android:layout_marginTop="139dp"
+        android:background="@drawable/btn_bg"
+        android:text="发布岗位"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_kaohework"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/btn_publicwork"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg"
+        android:text="岗位考核"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_luquwork"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/btn_kaohework"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg"
+        android:text="岗位录取"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

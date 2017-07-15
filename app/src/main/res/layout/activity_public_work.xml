@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/wname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="请输入岗位名称"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/wpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="请输入岗位工资"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/wnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="请输入招工人数"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/wduty"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:hint="请描述岗位职责"
+
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/wrequire"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:hint="请描述任职要求"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_public"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/as"
+        android:text="确认发布"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
